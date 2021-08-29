@@ -1,0 +1,15 @@
+#include <conio.h>
+#include <stdio.h>
+int main(){
+	int A[10],i;
+	//LLenar el arreglo
+	for(i=0;i<=9;i++){
+		printf("\n Ingresar un numero:");
+		scanf("%d",&A[i]);
+	}
+	//Salida
+	printf("\n\n El contenido del arreglo\n");
+	for(i=0;i<=9;i++){
+		printf("%d\n",A[i]);
+	}
+}
